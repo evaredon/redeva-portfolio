@@ -5,7 +5,7 @@
   <h3 align="center">Eva Redon Portfolio</h3>
 
   <p align="center">
-    Let's get to know each other ! Come to see my page and don't hesitate to contact me :)
+    Let's get to know me ! Come to see my page and don't hesitate to contact me :)
     <br />
     <br />
     ***
@@ -26,53 +26,75 @@
     <li>
       <a href="#getting-started">Getting Started</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
     <br />
-<p align="center">***</p>
+    <br />
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+This project is my website portfolio but it's not just that. This is a place where you'll get to know me through my projects and designs but I try to make each element you see as a mirror of myself. Just come visit my universe and let's make contact :)
 
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+![React](https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react3.svg)
+![NextJs](https://ziadoua.github.io/m3-Markdown-Badges/badges/NextJS/nextjs1.svg)
+![Sass](https://ziadoua.github.io/m3-Markdown-Badges/badges/Sass/sass3.svg)
+<br/>
+<br/>
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+This project is made with Vite and React. To install it, you have to make sure you already have node.js on your computer or those commands won't work.
+<br/>
+<br/>
 
-### Installation
+### Installation :
+<br/>
+
+- First of all, clone this repository
+
+```bash
+cd /var/www/html
+git clone < git@github.com >:xxxxxxxxxx.git
+```
+<br/>
+
+- Now place you inside the project folder
+
+```bash
+cd redeva-portfolio/redeva-portfolio
+```
+<br/>
+
+- Npm installation
+
+```bash
+npm install
+```
+<br/>
+
+- Npm run dev
+
+```bash
+npm run dev
+```
+<br/>
+
+- Start the localhost and ___voilà___ :)
+<br/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
 
-Eva Redon - evaredon2001@gmail.com
+- 📧 Mail adress : **<evaredon2001@gmail.com>**
+- 🌐 Linkedin : **<https://www.linkedin.com/in/eva-redon-dev/>**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
