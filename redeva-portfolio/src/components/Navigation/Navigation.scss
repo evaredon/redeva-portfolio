@@ -1,0 +1,36 @@
+.Navigation {
+    &-Aside{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-List {
+        list-style: none;
+        background-color: rgba(190, 197, 179, 0.74);
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: 15px;
+    }
+
+    &-Elements {
+        display: flex;
+    }
+
+    &-Links {
+        color: rgb(31, 29, 29);
+        display: none;
+    }
+
+    &-Icon {
+        width: 35px;
+        height: 35px;
+        margin: 1rem 0;
+        transition: all 0.6s;
+        &:hover {
+            filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+            transform: scale(1.1);
+        }
+    }
+}
