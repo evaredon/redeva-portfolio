@@ -49,11 +49,14 @@
     }
 
     &-Message {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 2px rgb(113, 100, 134);
+        color: beige;
+        padding-top: 1rem;
         font-size: 1.3rem;
-
+        h1 {
+            margin: 4rem 0 0.3rem;
+        }
     }
 
     &-Cloud {
@@ -64,5 +67,26 @@
         &:hover {
             transform: scale(1.1);
         }
+    }
+
+    .custom-shape-divider-top-1693694955 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-top-1693694955 svg {
+        position: relative;
+        display: block;
+        width: calc(131% + 1.3px);
+        height: 120px;
+    }
+    
+    .custom-shape-divider-top-1693694955 .shape-fill {
+        fill: #9013FE4D;
     }
 }
