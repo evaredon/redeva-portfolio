@@ -7,8 +7,10 @@
   <p align="center">
     Let's get to know each other ! Come to see my page and don't hesitate to contact me :)
     <br />
+    <br />
+    ***
 </div>
-
+    <br />
 
 
 <!-- TABLE OF CONTENTS -->
@@ -28,7 +30,8 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
+    <br />
+<p align="center">***</p>
 
 
 <!-- ABOUT THE PROJECT -->
