@@ -5,6 +5,7 @@
 
 // = Import : local
 import Navigation from '../Navigation/Navigation'
+import Welcome from '../Welcome/Welcome';
 
 // == Import : style
 import './App.scss';
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
+      <Welcome />
     </div>
   );
 }

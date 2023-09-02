@@ -1,0 +1,68 @@
+.Welcome {
+    width: 85%;
+    margin: 4rem auto;
+
+    &-Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.171);
+    backdrop-filter: blur(12.7px);
+    -webkit-backdrop-filter: blur(12.7px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    }
+
+    &-Pic {
+        width: 20%;
+        margin: 3rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    &-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &-Name {
+        margin: 0;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+
+    &-Job {
+        margin: 0;
+    }
+
+    &-Location {
+        display: flex;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        color: rgb(78, 109, 78);
+        img {
+            width: 20px;
+            padding-right: 1rem;
+        }
+    }
+
+    &-Message {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+
+    }
+
+    &-Cloud {
+        width: 8%;
+        height: 8%;
+        margin: 2rem;
+        transition: all 0.7s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
