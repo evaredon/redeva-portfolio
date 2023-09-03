@@ -2,11 +2,11 @@
 import { Link } from 'react-router-dom';
 
 // = Import : local
-import Home from '../../assets/home.svg';
-import User from '../../assets/me.svg';
-import Skills from '../../assets/puzzle.svg';
-import Web from '../../assets/app.svg';
-import Contact from '../../assets/contact.svg';
+import Home from '../../assets/nav/home.svg';
+import User from '../../assets/nav/me.svg';
+import Skills from '../../assets/nav/puzzle.svg';
+import Web from '../../assets/nav/app.svg';
+import Contact from '../../assets/nav/contact.svg';
 
 // = Import : style
 import './Navigation.scss'

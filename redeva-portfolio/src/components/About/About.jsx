@@ -34,7 +34,7 @@ function About() {
             <div className='About-Bottom'>
                 <div>
                     <button>
-                        Click for CV
+                        Curriculum Vitae
                     </button>
                 </div>
             </div>
