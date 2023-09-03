@@ -1,5 +1,6 @@
-import Profile from '../../assets/welcome-pic1.png'
+import Profile from '../../assets/welcome-pic.png'
 import Location from '../../assets/location.svg'
+import Scroll from '../../assets/scrolldown.svg'
 
 import './Welcome.scss'
 
@@ -13,16 +14,12 @@ return(
             </svg>
         </div>
 
-        <div className='Welcome-Message'>
-            <h1>Bonjour !</h1>
-        </div>
-
         <div className='Welcome-Top'>
             <img className="Welcome-Pic" src={Profile} />
             <div className='Welcome-Container'>
                 <section className='Welcome-Description'>
                     <h2 className='Welcome-Name'>Eva Redon</h2>
-                    <h2 className='Welcome-Job' >Développement Web | Front-end</h2>
+                    <h2 className='Welcome-Job' >Web Developement | Front-end</h2>
                 </section>
                 <section className='Welcome-Location'>
                     <img src={Location} />
@@ -30,6 +27,8 @@ return(
                 </section>
             </div>
         </div>
+
+        <img className="Welcome-Arrow" src={Scroll} />
 
     </div>
 

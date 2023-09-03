@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital@0;1&display=swap');
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
-  color: rgba(56, 47, 47, 0.87);
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(#cae6c4, #e0d9eb);
+  font-family: 'Roboto', sans-serif;
+  background: #E2DBC8;
+  color: #4d463c;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -33,7 +31,11 @@ body {
 
 h1 {
   font-size: 5.2em;
-  font-family: 'Voltaire', sans-serif;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
 }
 
 button {
