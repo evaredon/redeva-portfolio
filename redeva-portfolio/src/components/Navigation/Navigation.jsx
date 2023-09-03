@@ -2,7 +2,6 @@
 import { Link } from 'react-router-dom';
 
 // = Import : local
-import AppLogo from '../../../public/logo-eva.jpg'
 import Home from '../../assets/home.svg';
 import User from '../../assets/me.svg';
 import Skills from '../../assets/puzzle.svg';
@@ -12,6 +11,7 @@ import Contact from '../../assets/contact.svg';
 // = Import : style
 import './Navigation.scss'
 
+  //todo: add anchors
 
 function Navigation() {
     return(

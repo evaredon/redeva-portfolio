@@ -1,21 +1,20 @@
-/* eslint-disable no-console */
-/* eslint-disable no-alert */
-
-// = Import : npm
-
 // = Import : local
 import Navigation from '../Navigation/Navigation'
-import Welcome from '../Welcome/Welcome';
+import Home from '../Home/Home';
+import About from '../About/About';
+import Skills from '../Skills/Skills';
 
 // == Import : style
 import './App.scss';
 
 // == App Component
-function App() {
+function App() {  
   return (
     <div className="App">
       <Navigation />
-      <Welcome />
+      <Home />
+      <About />
+      <Skills />
     </div>
   );
 }

@@ -2,11 +2,12 @@ import Profile from '../../assets/welcome-pic.png'
 import Location from '../../assets/location.svg'
 import Scroll from '../../assets/scrolldown.svg'
 
-import './Welcome.scss'
+import './Home.scss'
+import { Link } from 'react-router-dom';
 
-function Welcome() {
+function Home() {
 return(
-    <div className='Welcome'>
+    <div id="#Home" className='Home'>
 
         <div className="custom-shape-divider-top-1693694955">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -14,21 +15,24 @@ return(
             </svg>
         </div>
 
-        <div className='Welcome-Top'>
-            <img className="Welcome-Pic" src={Profile} />
-            <div className='Welcome-Container'>
-                <section className='Welcome-Description'>
-                    <h2 className='Welcome-Name'>Eva Redon</h2>
-                    <h2 className='Welcome-Job' >Web Developement | Front-end</h2>
+        <div className='Home-Top'>
+            <img className="Home-Pic" src={Profile} />
+            <div className='Home-Container'>
+                <section className='Home-Description'>
+                    <h1>Hello.</h1>
+                    <h1 className='Home-Name'>Eva Redon</h1>
+                    <h2 className='Home-Job' >Web Developement | Front-end</h2>
                 </section>
-                <section className='Welcome-Location'>
+                <section className='Home-Location'>
                     <img src={Location} />
                     <p>Paris</p>
                 </section>
             </div>
         </div>
 
-        <img className="Welcome-Arrow" src={Scroll} />
+        <Link>
+            <img className="Home-Arrow" src={Scroll} />
+        </Link>
 
     </div>
 
@@ -36,4 +40,4 @@ return(
 );
 }
 
-export default Welcome;
+export default Home;
