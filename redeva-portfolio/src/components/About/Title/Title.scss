@@ -1,60 +1,61 @@
 /* Proudly created with www.csswarp.com */
-.warp__placeholder{
-    position: absolute;
-    color: transparent;
-    font-size: .1px;
+.warp__placeholder {
+  position: absolute;
+  color: transparent;
+  font-size: 0.1px;
 }
 
 .warp {
-    display: block;
-    position: relative;
-    width: 370px;
-    height: 241px;
-    font: normal 65px/1 'Abril Fatface';
-    color:antiquewhite
+  display: block;
+  position: relative;
+  width: 370px;
+  height: 241px;
+  font: normal 65px/1 'Abril Fatface';
+  color: antiquewhite;
 }
 
 [class*='warp__'] {
-    display: block;
-    position: absolute;
+  display: block;
+  position: absolute;
 }
 
 .warp__0 {
-    transform-origin: 50% 57px;
-    transform: translate(45.508399999999995px,51.9029px) rotate(-0.64608rad);
+  transform-origin: 50% 57px;
+  transform: translate(45.508399999999995px, 51.9029px) rotate(-0.64608rad);
 }
 
 .warp__1 {
-    transform-origin: 50% 57px;
-    transform: translate(82.158px,32.2509px) rotate(-0.42694rad);
+  transform-origin: 50% 57px;
+  transform: translate(82.158px, 32.2509px) rotate(-0.42694rad);
 }
 
 .warp__2 {
-    transform-origin: 50% 57px;
-    transform: translate(115.95439999999999px,20.991100000000003px) rotate(-0.245844rad);
+  transform-origin: 50% 57px;
+  transform: translate(115.95439999999999px, 20.991100000000003px)
+    rotate(-0.245844rad);
 }
 
 .warp__3 {
-    transform-origin: 50% 57px;
-    transform: translate(147.7643px,15.569599999999994px) rotate(-0.073083rad);
+  transform-origin: 50% 57px;
+  transform: translate(147.7643px, 15.569599999999994px) rotate(-0.073083rad);
 }
 
 .warp__4 {
-    transform-origin: 50% 57px;
-    transform: translate(184.2215px,15.611500000000007px) rotate(0.075991rad);
+  transform-origin: 50% 57px;
+  transform: translate(184.2215px, 15.611500000000007px) rotate(0.075991rad);
 }
 
 .warp__5 {
-    transform-origin: 50% 57px;
-    transform: translate(207.0432px,18.984899999999996px) rotate(0.200209rad);
+  transform-origin: 50% 57px;
+  transform: translate(207.0432px, 18.984899999999996px) rotate(0.200209rad);
 }
 
 .warp__6 {
-    transform-origin: 50% 57px;
-    transform: translate(231.97269999999997px,31.583px) rotate(0.42131rad);
+  transform-origin: 50% 57px;
+  transform: translate(231.97269999999997px, 31.583px) rotate(0.42131rad);
 }
 
 .warp__7 {
-    transform-origin: 50% 57px;
-    transform: translate(281.0695px,54.148700000000005px) rotate(0.67567rad);
+  transform-origin: 50% 57px;
+  transform: translate(281.0695px, 54.148700000000005px) rotate(0.67567rad);
 }

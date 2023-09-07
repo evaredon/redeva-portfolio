@@ -1,12 +1,12 @@
 .Home {
-    height: 100vh;
-    padding: 4rem 0 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
+  height: 100vh;
+  padding: 4rem 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 
-    &-Top {
+  &-Top {
     width: 65%;
     margin: 4rem auto;
     display: flex;
@@ -18,78 +18,77 @@
     backdrop-filter: blur(12.7px);
     -webkit-backdrop-filter: blur(12.7px);
     border: 1px solid rgba(255, 255, 255, 0.28);
-    }
+  }
 
-    &-Pic {
-        width: 40%;
-    }
+  &-Pic {
+    width: 40%;
+  }
 
-    &-Container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+  &-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    &-Name {
-        margin: 0;
-        font-size: 3rem;
-    }
+  &-Name {
+    margin: 0;
+    font-size: 3rem;
+  }
 
-    &-Job {
-        margin: 0;
-    }
+  &-Job {
+    margin: 0;
+  }
 
-    &-Location {
-        display: flex;
-        padding-top: 1rem;
-        font-size: 1.5rem;
-        color: rgb(78, 109, 78);
-        img {
-            width: 20px;
-            padding-right: 1rem;
-        }
+  &-Location {
+    display: flex;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(78, 109, 78);
+    img {
+      width: 20px;
+      padding-right: 1rem;
     }
+  }
 
-    .custom-shape-divider-top-1693694955 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-    }
-    
-    .custom-shape-divider-top-1693694955 svg {
-        position: relative;
-        display: block;
-        width: calc(131% + 1.3px);
-        height: 120px;
-    }
-    
-    .custom-shape-divider-top-1693694955 .shape-fill {
-        fill: #353D29;
-    }
+  .custom-shape-divider-top-1693694955 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
 
-    &-Arrow {
-        width: 60px;
-        margin: 1rem;
+  .custom-shape-divider-top-1693694955 svg {
+    position: relative;
+    display: block;
+    width: calc(131% + 1.3px);
+    height: 120px;
+  }
 
-        &:hover {
-        cursor: pointer;
-        animation: swing 0.8s ease;
-        animation-iteration-count: 2;
-        filter: drop-shadow(0px 15px 2px #81818175);
+  .custom-shape-divider-top-1693694955 .shape-fill {
+    fill: #353d29;
+  }
+
+  &-Arrow {
+    width: 60px;
+    margin: 1rem;
+
+    &:hover {
+      cursor: pointer;
+      animation: swing 0.8s ease;
+      animation-iteration-count: 2;
+      filter: drop-shadow(0px 15px 2px #81818175);
     }
-    }
+  }
 }
 
-
 @-webkit-keyframes swing {
-    30% {
-        transform: translateY(-5px);
-    }
-    30% {
-        transform: translateY(5px);
-    }
+  30% {
+    transform: translateY(-5px);
+  }
+  30% {
+    transform: translateY(5px);
+  }
 }
