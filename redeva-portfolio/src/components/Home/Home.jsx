@@ -3,7 +3,7 @@ import Location from '../../assets/location.svg';
 import Scroll from '../../assets/scrolldown.svg';
 
 import './Home.scss';
-import { Link } from 'react-router-dom';
+import { Link as Anchor } from 'react-scroll';
 
 function Home() {
   return (
@@ -37,9 +37,9 @@ function Home() {
         </div>
       </div>
 
-      <Link>
+      <Anchor activeClass="active" to="About" spy={true} smooth={true} duration={500}>
         <img className="Home-Arrow" src={Scroll} />
-      </Link>
+      </Anchor>
     </div>
   );
 }
