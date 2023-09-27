@@ -4,10 +4,11 @@ function Form() {
     return (
         <div className='Contact-Form'>
         <form>
-          <h3>Get in touch</h3>
-          <input type="text" placeholder="Your email" className="Contact-Mail" />
-          <textarea placeholder="Your message" className="Contact-Message" />
-          <button>Submit</button>
+          <label>Email</label>
+          <input type="text" placeholder="Enter your Email" className="Contact-Mail" />
+          <label>Message</label>
+          <input placeholder="Write your message here" className="Contact-Message" />
+          <button>Send Message</button>
         </form>
         </div>
     );

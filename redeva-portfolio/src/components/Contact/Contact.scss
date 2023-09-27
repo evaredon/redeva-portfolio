@@ -1,11 +1,19 @@
 .Contact {
   height: 70vh;
-  margin: 0 auto;
   background-color: #353d29;
   color: antiquewhite;
+  margin: 4rem 6rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+
+  &-FormSide {
+    width: 50%;
+  }
+
+  &-Info {
+    width: 40%;
+  }
 
   &-Letter {
     width: 18%;
