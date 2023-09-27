@@ -1,6 +1,7 @@
 .Contact {
+
   &-Info {
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding: 0.5rem;
     background-color: rgba(250, 235, 215, 0.075);
@@ -11,7 +12,27 @@
     justify-content: center;
     align-items: center;
   }
+  
   &-Section {
-    margin: 3rem 0rem;
+    margin: 2rem 0rem;
+
+    h4 {
+        margin: 0.3rem 0;
+    }
+
+    p, a {
+        color: rgb(184, 174, 162);
+        margin: 0.3rem 0;
+      }
+
+    a:hover{
+        text-decoration:underline;
+    }
   }
+
+  &-Letter {
+    width: 30%;
+    margin: 1.5rem;
+  }
+  
 }
