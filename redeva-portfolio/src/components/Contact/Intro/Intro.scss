@@ -1,0 +1,17 @@
+.Contact {
+    
+    &-Intro {
+    width: 35%;
+    margin: 0 2rem;
+  }
+
+  &-Info {
+    display: flex;
+    align-items: center;
+  }
+
+  &-Join {
+    padding: 2rem;
+    font-weight: 700;
+  }
+}
