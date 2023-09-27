@@ -30,10 +30,11 @@ function About() {
         </div>
       </div>
 
-      {/* //todo: add functionnality for download or display */}
       <div className="About-Bottom">
         <div>
-          <button>Curriculum Vitae</button>
+          <a href="public/CV.pdf" download>
+            <button>Curriculum Vitae</button>
+          </a>
         </div>
       </div>
     </div>
