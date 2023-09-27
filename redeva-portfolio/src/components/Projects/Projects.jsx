@@ -10,29 +10,29 @@ function Projects() {
         <Link
           className="Projects-Card"
           style={{ backgroundImage: `url(${Discotech})` }}
+          to="https://github.com/evaredon/discotech-front"
         />
-        <Link
+        <article
           className="Projects-Card"
           // style={{ backgroundImage:`url(${})` }}
         />
-        <Link
+        <article
           className="Projects-Card"
           // style={{ backgroundImage:`url(${})` }}
         />
-        <Link
+        <article
           className="Projects-Card"
           // style={{ backgroundImage:`url(${})` }}
         />
-        <Link
+        <article
           className="Projects-Card"
           // style={{ backgroundImage:`url(${})` }}
         />
-        <Link
+        <article
           className="Projects-Card"
           // style={{ backgroundImage:`url(${})` }}
         />
       </div>
-      <p className="Projects-More">See more</p>
     </div>
   );
 }
