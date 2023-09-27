@@ -1,5 +1,6 @@
 // = Import : npm
 import { Link } from 'react-router-dom';
+import { Link as Anchor } from 'react-scroll';
 
 // = Import : local
 import Home from '../../assets/nav/home.svg';
@@ -11,42 +12,74 @@ import Contact from '../../assets/nav/contact.svg';
 // = Import : style
 import './Navigation.scss';
 
-//todo: add anchors
-
 function Navigation() {
   return (
     <aside className="Navigation-Aside">
       <nav className="Navigation-Container">
         <ul className="Navigation-List">
           <li>
-            <Link className="Navigation-Elements">
+            <Anchor
+              className="Navigation-Elements"
+              activeClass="active"
+              to="Home"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <img className="Navigation-Icon" src={Home} alt=""></img>
-              <p className="Navigation-Links">Accueil</p>
-            </Link>
+            </Anchor>
           </li>
           <li>
-            <Link className="Navigation-Elements">
+            <Anchor
+              className="Navigation-Elements"
+              activeClass="active"
+              to="About"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <img className="Navigation-Icon" src={User}></img>
               <p className="Navigation-Links">Profil</p>
-            </Link>
+            </Anchor>
           </li>
           <li>
-            <Link className="Navigation-Elements">
+            <Anchor
+              className="Navigation-Elements"
+              activeClass="active"
+              to="Skills"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <img className="Navigation-Icon" src={Skills}></img>
               <p className="Navigation-Links">Compétences</p>
-            </Link>
+            </Anchor>
           </li>
           <li>
-            <Link className="Navigation-Elements">
+            <Anchor
+              className="Navigation-Elements"
+              activeClass="active"
+              to="Projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <img className="Navigation-Icon" src={Web}></img>
               <p className="Navigation-Links">Projets</p>
-            </Link>
+            </Anchor>
           </li>
           <li>
-            <Link className="Navigation-Elements">
+          <Anchor
+              className="Navigation-Elements"
+              activeClass="active"
+              to="Contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
               <img className="Navigation-Icon" src={Contact}></img>
               <p className="Navigation-Links">Contact</p>
-            </Link>
+            </Anchor>
           </li>
         </ul>
       </nav>

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div id="#Home" className="Home">
+    <div className="Home">
       <div className="custom-shape-divider-top-1693694955">
         <svg
           data-name="Layer 1"
