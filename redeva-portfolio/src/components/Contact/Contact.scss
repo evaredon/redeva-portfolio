@@ -2,18 +2,17 @@
   height: 70vh;
   background-color: #353d29;
   color: antiquewhite;
-  margin: 4rem 6rem;
   padding: 2rem 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
   &-FormSide {
-    width: 40%;
+    width: 30%;
   }
 
   &-InfoSide {
-    width: 30%;
+    width: 25%;
   }
 
   &-Letter {
