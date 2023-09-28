@@ -1,18 +1,20 @@
 .Contact {
-  height: 100vh;
+  height: 90vh;
   background-color: #353d29;
   color: antiquewhite;
   padding: 2rem 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 
   &-FormSide {
     width: 30%;
+    margin-left:6rem;
   }
 
   &-InfoSide {
-    width: 25%;
+    width: 30%;
   }
 
   &-Letter {

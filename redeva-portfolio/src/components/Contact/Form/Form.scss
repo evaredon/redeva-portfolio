@@ -1,14 +1,15 @@
 .Contact {
+  
   &-Form {
     display: flex;
-    margin: 2.5rem 0;
+    margin: 3.5rem 0;
   }
 
   label {
   font-weight: 700;
   }
 
-  input {
+  input, textarea {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 7px;
     padding: 0 1rem;
@@ -16,6 +17,10 @@
     margin: 1rem 0 2rem 0;
     background-color: antiquewhite;
     color: #302b26;
+  }
+
+  textarea {
+    padding: 1rem;
   }
 
   &-Mail {
