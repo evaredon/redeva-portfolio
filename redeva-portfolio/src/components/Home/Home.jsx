@@ -1,9 +1,9 @@
 import Profile from '../../assets/welcome-pic.png';
 import Location from '../../assets/location.svg';
-import Scroll from '../../assets/scrolldown.svg';
 
 import './Home.scss';
 import { Link as Anchor } from 'react-scroll';
+import Arrow from '../Arrow/Arrow';
 
 function Home() {
   return (
@@ -37,8 +37,14 @@ function Home() {
         </div>
       </div>
 
-      <Anchor activeClass="active" to="About" spy={true} smooth={true} duration={500}>
-        <img className="Home-Arrow" src={Scroll} />
+      <Anchor
+        activeClass="active"
+        to="About"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        <Arrow />
       </Anchor>
     </div>
   );

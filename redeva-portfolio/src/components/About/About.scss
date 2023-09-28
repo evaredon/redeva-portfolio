@@ -5,22 +5,24 @@
 
   &-Top {
     display: flex;
+    align-items: center;
   }
 
   &-Bottom {
     display: flex;
     justify-content: center;
+    margin-top: 12rem;
   }
 
   &-Title {
-    margin-left: 10rem;
-    padding-top: 4rem;
+    margin-left: 7rem;
+    padding-top: 6cap;
   }
 
   &-Cartoon {
     position: absolute;
-    left: 12rem;
-    top: 75rem;
+    left: 9rem;
+    top: 85rem;
     width: 18rem;
   }
 
@@ -29,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 16rem auto 0;
 
     img {
       width: 5rem;

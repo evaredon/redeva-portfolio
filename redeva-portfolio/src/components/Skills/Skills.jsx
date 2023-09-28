@@ -2,9 +2,12 @@ import others from '../../data/OtherSkills.js';
 import fronts from '../../data/FrontSkills.js';
 import backs from '../../data/BackSkills.js';
 
+import { Link as Anchor } from 'react-scroll';
+
 // import skills from '../../data/Skills.js'
 
 import './Skills.scss';
+import Arrow from '../Arrow/Arrow.jsx';
 
 function Skills() {
   console.log(others);
@@ -41,6 +44,15 @@ function Skills() {
           ))}
         </ul>
       </div>
+      <Anchor
+        activeClass="active"
+        to="Projects"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        <Arrow />
+      </Anchor>
     </div>
   );
 }

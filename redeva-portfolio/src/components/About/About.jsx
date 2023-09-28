@@ -29,7 +29,6 @@ function About() {
           </Link>
         </div>
       </div>
-
       <div className="About-Bottom">
         <div>
           <a href="public/CV.pdf" download>
