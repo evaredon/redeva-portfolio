@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import './Intro.scss';
-import Letter from '../../../assets/loveletter.png';
+import Letter from '../../../assets/letterbox.svg';
 
 function Intro() {
   return (
     <div className="Contact-Info">
       <img className="Contact-Letter" src={Letter} alt="Love letter drawing" />
+      
       <div>
         <section className="Contact-Section">
           <h4>Mail Adress</h4>

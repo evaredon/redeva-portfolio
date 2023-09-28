@@ -45,24 +45,28 @@ h3 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 17px;
 }
 
 button {
-  border-radius: 15px;
-  border: 1px solid transparent;
-  padding: 1rem;
-  font-size: 1.2em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #4d463c;
-  color: antiquewhite;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: #222;
+  background-color:antiquewhite;
+  box-shadow: 2px 3px 0 0 #ffffff;
+  border: 1px solid #222;
+  border-radius: 2em;
+  margin-top: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.64rem 1.6rem;
   cursor: pointer;
-  transition: all 0.25s;
 }
 button:hover {
   border-color: #161412;
-  background-color: #302b26;
+  background-color: #e7c630;
 }
 button:focus,
 button:focus-visible {
