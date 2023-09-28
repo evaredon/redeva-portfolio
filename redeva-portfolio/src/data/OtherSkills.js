@@ -1,6 +1,5 @@
 import Git from '../assets/skills/git.svg';
 import MockFlow from '../assets/skills/mockflow.svg';
-import Vercel from '../assets/skills/vercel.svg';
 import Canva from '../assets/skills/canva.svg';
 import Trello from '../assets/skills/trello.svg';
 
@@ -24,10 +23,5 @@ export default [
     id: 4,
     name: 'Trello',
     url: Trello,
-  },
-  {
-    id: 5,
-    name: 'Vercel',
-    url: Vercel,
   },
 ];

@@ -3,7 +3,6 @@ import fronts from '../../data/FrontSkills.js';
 import backs from '../../data/BackSkills.js';
 
 import { Link as Anchor } from 'react-scroll';
-
 // import skills from '../../data/Skills.js'
 
 import './Skills.scss';
@@ -16,21 +15,21 @@ function Skills() {
     <div className="Skills">
       <h2>My skills</h2>
       <div className="Skills-Cards">
-        <ul className="Skills-Others">
-          <h3>Others</h3>
-          {others.map((other) => (
-            <li key={other.id}>
-              <img src={other.url} />
-              <p>{other.name}</p>
-            </li>
-          ))}
-        </ul>
         <ul className="Skills-Front">
           <h3>Front</h3>
           {fronts.map((front) => (
             <li key={front.id}>
               <img src={front.url} />
               <p>{front.name}</p>
+            </li>
+          ))}
+        </ul>
+        <ul className="Skills-Others">
+          <h3>Others</h3>
+          {others.map((other) => (
+            <li key={other.id}>
+              <img src={other.url} />
+              <p>{other.name}</p>
             </li>
           ))}
         </ul>
